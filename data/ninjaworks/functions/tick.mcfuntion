@@ -1,4 +1,4 @@
 gamerule sendCommandFeedback false
-scoreboard players add @a c5d2s8e 1
-execute as @a if score @s c5d2s8e = ORIGINTIMER c5d2s8f run execute if score @s c5d2s8g = ORIGINTIMER c5d2s8g run origin random @s
-execute as @a if score @s c5d2s8e = ORIGINTIMER c5d2s8f run scoreboard players set @s 1
+execute as @a if score @s c5d2s8e = ORIGINTIMER c5d2s8f run origin random @s
+execute as @a if score @s c5d2s8e = ORIGINTIMER c5d2s8f run scoreboard players add @s
+gamerule sendCommandFeedback true
